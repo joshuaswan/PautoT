@@ -2,10 +2,10 @@ import re
 
 pattern = re.compile(r'hello')
 
-result1 = re.match(pattern,'hello')
-result2 = re.match(pattern,'helloo CQC!')
-result3 = re.match(pattern,'helo CQC!')
-result4 = re.match(pattern,'hello CQC!')
+result1 = re.match(pattern, 'hello')
+result2 = re.match(pattern, 'helloo CQC!')
+result3 = re.match(pattern, 'helo CQC!')
+result4 = re.match(pattern, 'hello CQC!')
 
 if result1:
     print result1.group()
